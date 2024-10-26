@@ -1,0 +1,31 @@
+project:
+  type: book
+
+book:
+  title: "Data Science"
+  author: "Osvaldo Jeronymo Neto"
+  date: today
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - ie.qmd
+    - linguagens.qmd
+    - infraestrutura.qmd
+    - references.qmd
+
+bibliography: referencias.bib
+csl: abnt.csl
+
+format:
+  html:
+    theme: cosmo
+    lang: pt-BR
+    toc: true
+    number-sections: true
+  pdf:
+    lang: pt-BR
+    documentclass: scrreprt
+    toc: true
+
+editor: visual
