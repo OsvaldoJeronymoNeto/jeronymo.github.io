@@ -1,2 +1,2 @@
-# ojNeto.github.io
+# jeronymo.github.io
 Data Science page
