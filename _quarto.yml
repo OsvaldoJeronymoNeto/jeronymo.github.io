@@ -1,33 +1,23 @@
-theme: minimal-mistakes-jekyll
 
+### **_quarto.yml**
+```yaml
 project:
-  type: book
+  type: website
 
-book:
-  title: "Data Science"
-  author: "Osvaldo Jeronymo Neto"
-  date: today
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - ie.qmd
-    - linguagens.qmd
-    - infraestrutura.qmd
-    - references.qmd
-
-bibliography: referencias.bib
-csl: abnt.csl
+website:
+  title: "Página de Data Science"
+  navbar:
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Projetos"
+        href: projetos.qmd
+      - text: "Contato"
+        href: contato.qmd
+  footer:
+    text: "© 2024 Osvaldo Jeronymo"
 
 format:
   html:
     theme: cosmo
-    lang: pt-BR
-    toc: true
-    number-sections: true
-  pdf:
-    lang: pt-BR
-    documentclass: scrreprt
-    toc: true
-
-editor: visual
+    css: styles.css
