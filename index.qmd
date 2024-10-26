@@ -1,9 +1,26 @@
-# Prefácio {.unnumbered}
+---
+title: "Minha Página de Data Science"
+author: "Osvaldo Jeronymo"
+date: "2024-10-26"
+---
 
-A jornada que me levou a escrever este livro começou com uma simples curiosidade sobre o poder dos dados. Desde o início da minha especialização em Data Science e Big Data na Universidade Federal do Paraná, enfrentei inúmeros desafios e vivi momentos de grande aprendizado e realização. Este livro é um reflexo dessa trajetória, repleta de descobertas e superações.
+# Bem-vindo ao meu site de Data Science
 
-Ao longo do curso, tive a oportunidade de mergulhar em temas complexos e fascinantes, desde a análise de grandes volumes de dados até a aplicação de algoritmos de aprendizado de máquina. Cada capítulo deste livro representa uma etapa dessa jornada, compartilhando não apenas o conhecimento técnico adquirido, mas também as experiências pessoais que moldaram minha compreensão e paixão pela ciência de dados.
+Aqui você encontrará meus projetos, análises e visualizações de dados.
 
-Gostaria de expressar minha profunda gratidão aos professores e colegas que me apoiaram e inspiraram ao longo do caminho. Sem o incentivo e a orientação deles, este livro não seria possível. Agradeço também à minha família e amigos, cujo apoio incondicional foi fundamental para a conclusão deste projeto.
+## Projetos Recentes
 
-Espero que este livro sirva como uma fonte de inspiração e conhecimento para todos que desejam explorar o vasto e empolgante mundo da Data Science. Que minha trajetória possa motivar outros a seguir seus próprios caminhos de aprendizado e descoberta.
+### Análise de Dados de Vendas
+- **Descrição**: Análise detalhada das vendas de uma empresa ao longo do último ano.
+- **Ferramentas**: Python, Pandas, Matplotlib
+
+### Previsão de Demanda
+- **Descrição**: Modelo de previsão de demanda utilizando técnicas de Machine Learning.
+- **Ferramentas**: R, ggplot2, caret
+
+## Visualizações
+
+```{r}
+library(ggplot2)
+data(mpg)
+ggplot(mpg, aes(x=displ, y=hwy, color=class)) + geom_point()
